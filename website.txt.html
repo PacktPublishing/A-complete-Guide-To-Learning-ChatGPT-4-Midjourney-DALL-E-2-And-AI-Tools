@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 32px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.box {
+			width: 30%;
+			background-color: #f7f7f7;
+			box-shadow: 0 0 5px #ccc;
+			margin-bottom: 20px;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.box img {
+			max-width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.box h2 {
+			font-size: 24px;
+			margin: 0 0 10px 0;
+		}
+
+		.box p {
+			font-size: 18px;
+			margin: 0;
+		}
+
+		@media only screen and (max-width: 768px) {
+			.box {
+				width: 45%;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			.box {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+	</header>
+	<div class="container">
+		<div class="box">
+			<img src="https://via.placeholder.com/300">
+			<h2>Project 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo faucibus commodo. </p>
+		</div>
+		<div class="box">
+			<img src="https://via.placeholder.com/300">
+			<h2>Project 2</h2>
+			<p>Maecenas bibendum est ut aliquet venenatis. Nullam eu tortor eu nibh semper posuere.</p>
+		</div>
+		<div class="box">
+			<img src="https://via.placeholder.com/300">
+			<h2>Project 3</h2>
+			<p>Suspendisse ac ultrices purus. Sed eget tincidunt libero, quis placerat felis. </p>
+		</div>
+		<div class="box">
+			<img src="https://via.placeholder.com/300">
+			<h2>Project 4</h2>
+			<p>Cras efficitur nisl id enim hendrerit, at pharetra nibh pretium. Donec a dolor eget nisl faucibus ullamcorper. </p>
+		</div>
+		<div class="box">
+			<img src="https://via.placeholder.com/300">
+			<h2>Project 5</h2>
+			<p>
